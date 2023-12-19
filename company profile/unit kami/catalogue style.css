@@ -1,0 +1,119 @@
+#UNIT {
+  padding-top: 3rem;
+}
+
+.navbar {
+  box-shadow: 0 2px 10px 0 #000000a9
+}
+
+
+
+  #textfooter {
+    color: #ffffff;
+    background-color: #777777;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 0%;
+  }
+  
+ img {
+  max-width: fit-content;
+ }
+
+  /*For Resolution below 1080p*/
+  @media screen and (max-width : 1440px) {
+    .jumbotron {
+      padding: 0%;
+      max-width: fit-content;
+      background-color: #ffffff;
+    }
+  
+    .jumbotron img {
+      max-width: 100%;
+      padding: 0% 0%;
+    }
+  
+    img {
+      max-width: 400px;
+    }
+  
+  }
+
+
+  /*For Resolution below 1080p*/
+@media screen and (max-width : 1080px) {
+  .jumbotron {
+    padding: 0%;
+    max-width: fit-content;
+    background-color: #ffffff;
+  }
+
+  .jumbotron img {
+    max-width: 100%;
+    padding: 0% 0%;
+  }
+
+  img {
+    max-width: 400px;
+  }
+
+}
+
+/*For Resolution desktop*/
+@media screen and (max-width : 800px) {
+  .jumbotron img {
+    max-width: auto;
+    padding-left: 0%;
+  }
+
+  img {
+    max-width: 600px;
+    float: none;
+  }
+
+
+}
+
+
+/*For Resolution below 750p*/
+@media screen and (max-width : 750px) {
+  .jumbotron img {
+    max-width: auto;
+    padding-left: 0%;
+  }
+
+  img {
+    max-width: 250px;
+    float: none;
+  }
+
+
+}
+
+/*For Resolution below 720p*/
+@media screen and (max-width : 720px) {
+  .jumbotron img {
+    max-width: fit-content;
+    padding-left: 0%;
+  }
+
+  img {
+    max-width: auto;
+    float: none;
+  }
+
+
+}
+
+/*For Resolution below 640p*/
+@media screen and (max-width : 640px) {
+  .jumbotron img {
+    max-width: auto;
+    padding-left: 0%;
+  }
+
+  img {
+    max-width: auto;
+    float: none;
+  }
+}
